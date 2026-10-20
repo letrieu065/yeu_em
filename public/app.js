@@ -87,7 +87,6 @@ function renderWishes(list) {
 }
 
 async function init(cfg) {
-  if (!cfg.finalSurprise) $("surprise").closest("section").classList.add("hidden");
   $("subtitle").textContent = cfg.heroSubtitle;
   $("title").textContent = `Gửi ${cfg.herName}`;
   startCounter(cfg.startDate);
@@ -99,7 +98,7 @@ async function init(cfg) {
   $("letter").textContent = cfg.letter;
 
   $("openLetter").onclick = () => { $("letter").classList.remove("hidden"); $("openLetter").classList.add("hidden"); confetti(); };
-  $("surprise").onclick = () => { $("surpriseText").textContent = cfg.finalSurprise; $("surpriseText").classList.remove("hidden"); confetti(); };
+  if ($("surprise")) $("surprise").onclick = () => { $("surpriseText").textContent = cfg.finalSurprise; $("surpriseText").classList.remove("hidden"); confetti(); };
 
   const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && e.target.classList.add("show")), { threshold: 0.2 });
   document.querySelectorAll(".reason").forEach((el) => io.observe(el));
