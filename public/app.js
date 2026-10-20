@@ -87,6 +87,7 @@ function renderWishes(list) {
 }
 
 async function init(cfg) {
+  if (!cfg.finalSurprise) $("surprise").closest("section").classList.add("hidden");
   $("subtitle").textContent = cfg.heroSubtitle;
   $("title").textContent = `Gửi ${cfg.herName}`;
   startCounter(cfg.startDate);
