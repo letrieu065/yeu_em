@@ -1,0 +1,30 @@
+{
+  "herName": "Em yêu",
+  "myName": "Anh",
+  "startDate": "2024-02-14",
+  "heroSubtitle": "Chúc mừng ngày Phụ nữ Việt Nam 20/10",
+  "typedLines": [
+    "Gửi người con gái anh thương nhất 💐",
+    "Cảm ơn em đã xuất hiện trong cuộc đời anh",
+    "Hôm nay là ngày của em — và mọi ngày cũng vậy ❤️"
+  ],
+  "reasons": [
+    "Em cười lên là cả ngày của anh sáng bừng.",
+    "Em luôn kiên nhẫn với những lúc anh vụng về.",
+    "Em mạnh mẽ nhưng vẫn dịu dàng đến lạ.",
+    "Ở bên em, anh thấy bình yên.",
+    "Em làm anh muốn trở thành phiên bản tốt hơn mỗi ngày."
+  ],
+  "timeline": [
+    { "date": "14/02/2024", "title": "Ngày mình bắt đầu", "text": "Một ngày bình thường bỗng trở nên đặc biệt." },
+    { "date": "Chuyến đi đầu tiên", "title": "Lần đầu đi chơi xa", "text": "Anh nhớ mãi nụ cười của em hôm đó." },
+    { "date": "Hôm nay", "title": "20/10/2026", "text": "Và anh vẫn muốn viết tiếp những trang sau cùng em." }
+  ],
+  "photos": [
+    { "src": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600", "caption": "Khoảnh khắc 1" },
+    { "src": "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=600", "caption": "Khoảnh khắc 2" },
+    { "src": "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=600", "caption": "Khoảnh khắc 3" }
+  ],
+  "letter": "Em à,\n\nAnh không phải người giỏi nói lời yêu thương, nên anh viết ra đây. Cảm ơn em vì đã ở bên anh, lúc vui lẫn lúc anh chẳng ra làm sao.\n\nNgày 20/10 này, anh chỉ muốn nói: em xứng đáng được yêu thương, được chiều chuộng và được hạnh phúc — hôm nay và cả những ngày sau nữa.\n\nYêu em nhiều,\nAnh ❤️",
+  "finalSurprise": "Anh đã đặt bàn ở chỗ em thích tối nay lúc 19:00. Mặc đẹp đẹp nha, anh qua đón em! 🌹"
+}

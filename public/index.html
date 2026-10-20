@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gửi em 20/10 💐</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="petals"></canvas>
+
+  <!-- Màn hình mở quà -->
+  <div id="gate">
+    <div class="gift" id="giftBtn">🎁</div>
+    <p>Chạm vào để mở quà</p>
+  </div>
+
+  <main id="app" class="hidden">
+    <section class="hero">
+      <p class="small" id="subtitle"></p>
+      <h1 id="title">Gửi em</h1>
+      <p class="typed"><span id="typed"></span><span class="cursor">|</span></p>
+      <div class="counter" id="counter"></div>
+      <a href="#reasons" class="scroll">Kéo xuống nhé ↓</a>
+    </section>
+
+    <section id="reasons" class="card-section">
+      <h2>Vì sao anh thương em</h2>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+    </section>
+
+    <section class="card-section">
+      <h2>Chặng đường của mình</h2>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="card-section">
+      <h2>Những khoảnh khắc</h2>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="card-section">
+      <h2>Thư gửi em</h2>
+      <button class="btn" id="openLetter">💌 Mở thư</button>
+      <pre class="letter hidden" id="letter"></pre>
+    </section>
+
+    <section class="card-section">
+      <h2>Em nhắn anh nhé</h2>
+      <form id="wishForm" class="wish-form">
+        <select id="mood">
+          <option>💖</option><option>🥰</option><option>😘</option><option>😭</option><option>🌹</option>
+        </select>
+        <textarea id="message" maxlength="500" placeholder="Em muốn nói gì với anh nào..."></textarea>
+        <button class="btn" type="submit">Gửi</button>
+      </form>
+      <ul class="wishes" id="wishes"></ul>
+    </section>
+
+    <section class="card-section last">
+      <button class="btn big" id="surprise">🎉 Bất ngờ cuối cùng</button>
+      <p class="surprise hidden" id="surpriseText"></p>
+    </section>
+
+    <footer>Made with ❤️ by anh — 20/10/2026</footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

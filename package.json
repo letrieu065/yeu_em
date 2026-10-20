@@ -1,0 +1,12 @@
+{
+  "name": "love-1020",
+  "version": "1.0.0",
+  "description": "Món quà 20/10 gửi người đặc biệt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
