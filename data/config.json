@@ -1,7 +1,7 @@
 {
   "herName": "Em yêu",
   "myName": "Anh",
-  "startDate": "2023-09-12",
+  "startDate": "2023-12-09",
   "heroSubtitle": "Chúc mừng ngày Phụ nữ Việt Nam 20/10",
   "typedLines": [
     "Gửi người con gái anh thương nhất 💐",
@@ -21,8 +21,8 @@
     { "date": "Hôm nay", "title": "20/10/2026", "text": "Và anh vẫn muốn viết tiếp những trang sau cùng em." }
   ],
   "photos": [
-    { "src": "../data/imgs/pic1.jpg", "caption": "Khoảnh khắc 1" },
-    { "src": "../data/imgs/pic2.jpg", "caption": "Khoảnh khắc 2" },
+    { "src": "imgs/pic1.jpg", "caption": "Khoảnh khắc 1" },
+    { "src": "imgs/pic2.jpg", "caption": "Khoảnh khắc 2" },
     { "src": "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=600", "caption": "Khoảnh khắc 3" }
   ],
   "letter": "Em à,\n\nAnh không phải người giỏi nói lời yêu thương, nên anh viết ra đây. Cảm ơn em vì đã ở bên anh, lúc vui lẫn lúc anh chẳng ra làm sao.\n\nNgày 20/10 này, anh chỉ muốn nói: em xứng đáng được yêu thương, được chiều chuộng và được hạnh phúc — hôm nay và cả những ngày sau nữa.\n\nYêu em nhiều,\nAnh ❤️"
